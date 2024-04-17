@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#3f6d95;
+    color: white;
+    
+}
+.content{
+    margin-top: 100px;
+}
+.board{
+    display: flex;
+    margin-top: 60px;
+}
+.gridbox{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    /* grid-template: repeat(3,1fr); */
+    border: 1px solid white;
+    
+
+}
+.cell{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+
+}
+
+#message{
+    text-align: center;  
+    padding-top: 20px;  
+}
+
+#reset{
+    margin-top: 20px;
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    /* border: none; */
+}
